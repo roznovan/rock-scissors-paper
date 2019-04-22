@@ -19,7 +19,7 @@ loop do
 	end
 
 	arr = [:rock, :scissors, :paper]
-	computer_choice = arr.sample
+	computer_choice = arr.sample      # а можно сделать так - computer_choice = arr[rand(0..2)]
 
 	if computer_choice == user_choice
 		puts "Ничья!"
